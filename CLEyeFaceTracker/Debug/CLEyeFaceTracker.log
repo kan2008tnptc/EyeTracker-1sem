@@ -1,0 +1,43 @@
+﻿Build started 6/14/2014 10:05:53 AM.
+     1>Project "C:\Users\Kamal_UltraBuk\Documents\CL-Eye Platform SDK\Samples\CLEyeMulticam\C++\CLEyeFaceTracker\CLEyeFaceTracker.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IE:\openCV\opencv\build\include\opencv2 /IE:\openCV\opencv\build\include\opencv /IE:\openCV\opencv\build\include /I..\..\..\..\include /I..\..\..\..\include\opencv2 /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D WIN32 /D TARGET_WIN32 /D _DEBUG /D _WINDOWS /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /Gd /TP /wd4996 /wd4700 /wd4244 /wd4553 /wd4018 /wd4101 /wd4800 /wd4409 /wd4305 /analyze- /errorReport:prompt CLEyeFaceTracker.cpp stdafx.cpp
+         stdafx.cpp
+         CLEyeFaceTracker.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\..\Bin\CLEyeFaceTrackerd.exe" /INCREMENTAL /NOLOGO /LIBPATH:E:\openCV\opencv\build\x64\vc11\lib /LIBPATH:..\..\..\..\lib /LIBPATH:..\..\..\..\lib\opencv2 opencv_calib3d249d.lib opencv_contrib249d.lib opencv_core249d.lib opencv_features2d249d.lib opencv_flann249d.lib opencv_gpu249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_legacy249d.lib opencv_ml249d.lib opencv_nonfree249d.lib opencv_objdetect249d.lib opencv_ocl249d.lib opencv_photo249d.lib opencv_stitching249d.lib opencv_superres249d.lib opencv_ts249d.lib opencv_video249d.lib opencv_videostab249d.lib CLEyeMulticam.lib Comctl32.lib opencv_calib3d230d.lib opencv_contrib230d.lib opencv_core230d.lib opencv_features2d230d.lib opencv_flann230d.lib opencv_gpu230d.lib opencv_haartraining_engined.lib opencv_highgui230d.lib opencv_imgproc230d.lib opencv_legacy230d.lib opencv_ml230d.lib opencv_objdetect230d.lib opencv_video230d.lib libjasperd.lib libjpegd.lib libpngd.lib libtiffd.lib zlibd.lib vfw32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"..\..\..\..\Bin\CLEyeFaceTrackerd.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\..\Bin\CLEyeFaceTrackerd.lib" /MACHINE:X86 /SAFESEH .\Debug\CLEyeFaceTracker.obj
+         .\Debug\stdafx.obj
+     1>CLEyeFaceTracker.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     1>opencv_core230d.lib(array.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in CLEyeFaceTracker.obj
+     1>opencv_core230d.lib(datastructs.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in CLEyeFaceTracker.obj
+     1>opencv_core230d.lib(drawing.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in CLEyeFaceTracker.obj
+     1>opencv_core230d.lib(system.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in CLEyeFaceTracker.obj
+     1>opencv_core230d.lib(alloc.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in CLEyeFaceTracker.obj
+     1>opencv_core230d.lib(copy.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in CLEyeFaceTracker.obj
+     1>opencv_core230d.lib(matrix.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in CLEyeFaceTracker.obj
+     1>opencv_core230d.lib(tables.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in CLEyeFaceTracker.obj
+     1>opencv_core230d.lib(persistence.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in CLEyeFaceTracker.obj
+     1>opencv_core230d.lib(mathfuncs.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in CLEyeFaceTracker.obj
+     1>opencv_core230d.lib(convert.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in CLEyeFaceTracker.obj
+     1>opencv_core230d.lib(arithm.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in CLEyeFaceTracker.obj
+     1>opencv_core230d.lib(matop.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in CLEyeFaceTracker.obj
+     1>opencv_core230d.lib(stat.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in CLEyeFaceTracker.obj
+     1>opencv_core230d.lib(rand.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in CLEyeFaceTracker.obj
+     1>opencv_core230d.lib(matmul.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in CLEyeFaceTracker.obj
+     1>opencv_core230d.lib(lapack.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in CLEyeFaceTracker.obj
+     1>opencv_highgui230d.lib(window_w32.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in CLEyeFaceTracker.obj
+     1>opencv_highgui230d.lib(utils.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in CLEyeFaceTracker.obj
+     1>opencv_imgproc230d.lib(pyramids.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in CLEyeFaceTracker.obj
+     1>opencv_imgproc230d.lib(filter.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in CLEyeFaceTracker.obj
+     1>opencv_imgproc230d.lib(templmatch.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in CLEyeFaceTracker.obj
+     1>opencv_imgproc230d.lib(utils.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in CLEyeFaceTracker.obj
+     1>opencv_imgproc230d.lib(sumpixels.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in CLEyeFaceTracker.obj
+     1>opencv_objdetect230d.lib(haar.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in CLEyeFaceTracker.obj
+     1>opencv_objdetect230d.lib(cascadedetect.obj) : error LNK2038: mismatch detected for '_MSC_VER': value '1600' doesn't match value '1700' in CLEyeFaceTracker.obj
+     1>opencv_core249d.lib(opencv_core249d.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'X86'
+     1>Done Building Project "C:\Users\Kamal_UltraBuk\Documents\CL-Eye Platform SDK\Samples\CLEyeMulticam\C++\CLEyeFaceTracker\CLEyeFaceTracker.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.33
