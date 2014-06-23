@@ -1,14 +1,8 @@
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//
-// This file is part of CL-EyeMulticam SDK
-//
-// C++ Sample Application
-//
-// It allows the use of multiple CL-Eye cameras in your own applications
-//
-// For updates and file downloads go to: http://codelaboratories.com/research/view/cl-eye-muticamera-sdk
-//
-// Copyright 2008-2012 (c) Code Laboratories, Inc. All rights reserved.
-//
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// stdafx.cpp : Quelldatei, die nur die Standard-Includes einbindet.
+// EyeTracking.pch ist der vorkompilierte Header.
+// stdafx.obj enthält die vorkompilierten Typinformationen.
+
 #include "stdafx.h"
+
+// TODO: Auf zusätzliche Header verweisen, die in STDAFX.H
+// und nicht in dieser Datei erforderlich sind.

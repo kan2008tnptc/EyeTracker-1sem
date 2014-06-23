@@ -48,7 +48,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <TargetName>$(ProjectName)D</TargetName>
+    <TargetName>$(ProjectName)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -118,12 +118,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CLEyeFaceTracker.cpp" />
+    <ClCompile Include="findEyeCenter.cpp" />
+    <ClCompile Include="findEyeCorner.cpp" />
+    <ClCompile Include="helpers.cpp" />
     <ClCompile Include="stdafx.cpp">
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\global.h" />
     <ClInclude Include="..\targetver.h" />
+    <ClInclude Include="constants.h" />
+    <ClInclude Include="findEyeCenter.h" />
+    <ClInclude Include="findEyeCorner.h" />
+    <ClInclude Include="helpers.h" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>
   <ItemGroup>
